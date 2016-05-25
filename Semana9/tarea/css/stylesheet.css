@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+.wrapper{
+	margin: 0 auto;
+	width:80%;
+}
+
+.about{
+	font-size: 1.125em;
+	height:auto;
+	float: right;
+	color: white;
+	text-align: left;
+	font-family: helvetica;
+	width: 80%;
+	height: auto;
+	margin-top: 10%;
+}
+
+.contact{
+	font-size: 1.125em;
+	height:auto;
+	float: left;
+	color: white;
+	text-align: left;
+	font-family: helvetica;
+	margin-top: 5%;
+	width: 20%
+}
+.gallery{
+	margin-top: 3%;
+	float: left;
+	width: 15%;
+	height: auto;
+	display: inline-block;
+	padding: 1px 1px;
+}
+body{
+	background-color: #7b7671;
+	width: 100%;
+}
+
+h4{
+	font-family: helvetica;
+	height:auto;
+	width: 100%;
+	text-decoration: underline;
+	font-size: 1.50em;
+	color: white;
+	text-align: left;
+	display: inline-block;
+}
+
+.info{
+	font-family: helvetica;
+	height:auto;
+	width: 100%;
+	text-decoration: none;
+	font-size: 1em;
+	color: white;
+	text-align: left;
+	display: inline-block;
+	padding: 2px 2px 2px;
+}
+input{ 
+	float: right;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+nav {
+	background-color: black;
+	list-style-type: none;
+	padding: 5px 5px;
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+nav li a{
+	color: white;
+}
+
+nav li a:hover{
+	background-color:#7b7671;
+}
+
+aside li{
+	list-style-type: none;
+}
+aside{
+	font-size: 1.125em;
+	width:15%;
+	float: left;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	font-family: helvetica;
+	border-right: solid;
+	padding: 5px 10px;
+	margin-top: 5%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-family:helvetica;
+}
+article:first-child{
+	font-family: helvetica;
+	height:auto;
+	width: 30%;
+	text-decoration: none;
+	font-size: 1em;
+	float: right;
+	color: white;
+	margin-top: 5%;
+	text-align: left;
+	display: inline-block;
+}
+
+article:nth-child(2){
+	font-family: helvetica;
+ 	height:auto;
+	width: 28.7%;
+	float: left;
+	text-decoration: none;
+	font-size: 1em;
+	color:white;
+	margin-top: 5%;
+	margin-left: 10%;
+	text-align: left;
+}
+
+h1{
+	color: white;
+	font-size: 1.563em;
+	text-decoration: underline;
+	font-family: 'Josefin Sans', sans-serif;
+	float: left;
+	padding: 5px 5px;
+}
+
+
+footer {
+	font-family: 'Josefin Sans', sans-serif;	
+	color: white;
+	background-color: black;
+	padding: 5px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 10%;
+}
