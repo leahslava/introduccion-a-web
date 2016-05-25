@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald);
+
+#wrapper{
+	margin: 0 auto;
+	width:1280px;
+}
+body {
+	background-image:url ("imagenes/fondo.png");
+	background-repeat: repeat;
+}
+.container{
+	margin: 0 auto;
+}
+
+.container div{
+	width: 623px;
+	float: right;
+	margin-left:17px;
+	text-align: center; 
+}
+.container div img {
+	width: 300px;
+}
+
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#797172;
+	font-size: 25px;
+	padding: 5px;
+	margin-top: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
+p{
+	width: 350px;
+	display: inline-block;
+	color:#514b4d;
+	padding: 10px 15px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+}
+
+
