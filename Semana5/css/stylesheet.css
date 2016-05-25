@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+	background-color:#ad3c6b;
+}
+
+.declaracion{
+	position: absolute;
+	border: solid;
+	border-color: white;
+	top: 180px;
+	left: 30px;
+	font-family: helvetica;
+	padding: 5px 20px;
+	text-align: left;
+	height: 320px;
+	width: 800px;
+	margin-top: 20px;
+	line-height:20px;
+}
+.info{
+	position: absolute;
+	border: solid;
+	border-color: white;
+	top: 180px;
+	left: 30px;
+	padding: 5px 20px;
+	text-align: left;
+	height: 120px;
+	width: 300px;
+	margin-top: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif; 
+}
+body {
+	background-color:#ad3c6b;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align:left;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 46px;
+}
+nav li{
+	list-style-type: none;
+	float: right;
+	padding: 5px 9px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+aside li{
+	list-style-type: none;
+}
+aside{
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	margin:20px;
+	height:200px;
+	width: 200px;
+	position: absolute;
+	border-color: white
+	left:200px;
+	top: 200px;
+	padding: 3px 3px 3px 3px;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+}
+
+a {
+	color: white;
+	font-family: 'Oswald', sans-serif; 
+	text-decoration: none;align-items: 
+}
+nav li a:hover{
+	background-color: #f3cd2c;
+}
+h2{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	text-align:left;
+	font-size:18px;
+	text-decoration: underline;
+	position:relative;
+}
+article:first-child{
+	position: absolute;
+	border: solid;
+	border-color: white;
+	left:350px;
+	top: 580px;
+	font-family: helvetica;
+	padding: 5px 20px;
+	text-align: left;
+	line-height:20px;
+}
+article:nth-child(2){
+	position: absolute;
+	border:solid;
+	border-color: white;
+	left:350px;
+	top: 200px;
+	font-family: helvetica;
+	padding: 5px 20px;
+	text-align: left;
+	line-height:20px;
+}
+h3{
+	color: white;
+	font-family: helvetica;
+	float: left;
+}
+p{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+img.align-left{
+	float: left;
+	margin-right: 15px;
+	display: block;
+}
+footer {
+	font-family: 'Josefin Sans', sans-serif;	
+	color: white;
+	position: relative;
+	top: 800px;
+	float: left;
+	margin:20px;
+}
