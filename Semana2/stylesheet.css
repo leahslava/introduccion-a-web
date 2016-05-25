@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+}
+
+h1{
+	color: white;
+	font-family:Helvetica;
+	text-align:center;
+}
+
+h2{
+	color: white;
+	font-family:Helvetica;
+	text-align:center;
+	font-size:18px;
+}
+
+p{
+	font-family: Helvetica;
+	color:white;
+} 
+
+img {
+	width:400px; 
+	height:400px;
+	align:left;
+	border:10px solid black;
+   
+}
