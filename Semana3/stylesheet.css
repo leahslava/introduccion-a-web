@@ -1,0 +1,92 @@
+body {
+	background-color: darkcyan;
+}
+h1{
+	font-family: impact; 
+	color: white;
+	text-align:left;
+	font-size: 46px;
+}
+
+nav li{
+	list-style-type: none;
+	float: right;
+	display: block;
+	color: white;
+	padding: 5px 9px;
+	text-decoration: none;
+	font-family: helvetica;
+}
+
+aside li{
+	list-style-type: none;
+}
+aside{
+	font-size: 20px;
+	color: white;
+	font-family: helvetica; 
+	margin:5px;
+	height:200px;
+	width: 200px;
+	margin-bottom: 30px;
+	position: absolute;
+	border-color: white
+	left:200px;
+	top: 200px;
+	padding: 3px 3px 3px 3px;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+}
+
+a {
+	color: white;
+	font-family: Helvetica; 
+	text-decoration: none;
+}
+
+h2{
+	color: white;
+	font-family:impact;
+	text-align:left;
+	font-size:18px;
+	text-decoration: underline;
+	position:relative;
+}
+article:first-child{
+	margin-left: 20%;
+	margin-right: 5%;
+	position: absolute;
+	border: solid;
+	border-color: white
+	left:550px;
+	top: 550px;
+	padding: 5px 20px;
+}
+h5{
+	color: white;
+}
+
+article:nth-child(2){
+	margin-left: 20%;
+	margin-right: 5%;
+	position: absolute;
+	border:solid;
+	border-color: white
+	left:200px;
+	top: 200px;
+	padding: 5px 20px;
+}
+
+p{
+	color: white;
+	font-family: helvetica;
+}
+
+footer {
+	font-family: Helvetica; 
+	color: white;
+	position: relative;
+	top: 750px;
+	display: inline-block;
+}
