@@ -1,0 +1,272 @@
+#container{
+	margin: 0 auto;
+	width:1024px;
+}
+body{
+	background-color: #ececec;
+}
+header img{
+	float: left;
+}
+nav {
+	width: 100%;
+	padding: 5px 5px ;
+	font-family:'Ubuntu', sans-serif;
+	text-align: right;
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin-left: 10px;
+}
+nav li a{
+	text-decoration: none;
+	color:  #60cff8;
+	margin-right: 15px;
+}
+
+nav li a:hover{
+	color:#e9da30;
+}
+
+#main{
+	width: 100%;
+}
+#main img{
+	width: 100%;
+	margin-top: 20px;
+}
+#main h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 3.125em;
+	text-align: center;
+	color:  #fff;
+	margin-top: -140px;
+}
+#main button{
+	float: right;
+	margin-top: 100px;
+}
+
+#marketing{
+	margin-top: 70px;
+	float: right;
+}
+#marketing div {
+	display: inline-block;
+	width: 295px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+h3{
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
+#marketing p{
+	width: 220px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.75em;
+}
+#marketing button{
+	margin-top: 5px;
+}
+
+#info div{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 30px;
+	background-color: white;
+}
+#info img{
+	width: 250px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: right;
+}
+.p1{
+	width: 670px;
+	float: left;
+	margin-top: 40px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.94em;
+	line-height: 15px;
+	margin-right: 60px;
+}
+#info h2{
+	font-size: 1.25em;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+#info button{
+	margin-top: 10px;
+}
+
+footer{
+	width: 100%;
+	display: inline-block;
+	margin-top: 70px;
+	background-color:#60cff8;
+
+}
+.column1 img{
+	width: 18%;
+	float:left;
+	margin-left: 10px;
+}
+
+.column3 ul{
+	font-size: 0.875em;
+	float: left;
+	margin-left: 20px;
+	margin-top: 18px;
+	line-height: 25px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+.column2 ul{
+	width: 200px;
+	font-size: 1.25em;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	line-height: 25px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.column4 ul{
+	float: right;
+	margin-top: 120px;
+	margin-right: 80px;
+	font-size: 2.1875em;
+	color: white;
+}
+
+@media only screen and (max-width:600px){
+	
+	body{ 
+		background-color:black;
+	 }
+	 header img{
+	 	width: 30%;
+	 }
+	nav li{
+		text-align: center;
+		float: left;
+		margin-top: 30px;
+	}
+	nav li a:hover{
+		color: white;
+	}	
+
+	#main img{
+		width: 58%;
+		margin-top: 20px;
+	}
+
+	#main h2{
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 1.25em;
+		text-align: center;
+		color:  #fff;
+		width: 58%;
+		margin-top: -120px;
+	}
+	#main button{
+		display: none;
+	}
+
+	#marketing div {
+	display: inline-block;
+	width: 48%;
+	float: left;
+	margin-left: 30px;
+	margin-right: 55px;
+	margin-top: 40px;
+	}
+	#info div{
+		display: inline-block;
+		padding: 10px;
+		margin-top: 30px;
+		background-color: transparent;
+	}	
+
+	#info img{
+		display: none;
+	}
+
+	.p1{
+		width: 55%;
+		color: white;
+		margin-top: 40px;
+		margin-left: 10px;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 0.9375em;
+		line-height: 15px;
+		text-align: center;
+	}
+
+	#info h2{
+		font-size: 20px;
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 10px;
+		text-align: center;
+		text-decoration: underline;
+	}
+
+	h3{
+		font-family: 'Ubuntu', sans-serif;
+		margin-top: 10px;
+		color: white;
+		margin-bottom: 5px;
+	}
+
+	#marketing p{
+		width: 40%;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 0.75em;
+		color: white;
+	}
+
+	footer{
+		width: 100%;
+		display: inline-block;
+		margin-top: 50px;
+		background-color:#60cff8;
+	}
+	.column1 img{
+		display: none;
+	}
+
+	.column3 ul{
+		display: none;
+	}
+	.column2 ul{
+		float: left;
+		font-size: 0.97em;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		line-height: 25px;
+		color: white;
+		font-family: 'Ubuntu', sans-serif;
+	}
+
+	.column4 ul{
+		margin-top: 50px;
+		color: white;
+	}
+
+}
+
+
+
+
