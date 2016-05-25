@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald);
+
+#wrapper{
+	margin: 0 auto;
+	width:1280px;
+}
+body {
+	background-color: black;
+}
+.container{
+	margin: 0 auto;
+}
+.container div{
+	width: 410px;
+	float: right;
+}
+.container div iframe {
+	width: 380px;
+	float: center;
+}
+
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#797172;
+	font-size: 60px;
+	padding: 5px;
+	margin-top: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#797172;
+	font-size: 25px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+p{
+	color: white;
+	margin-top: 10px;
+	font-family: 'Open Sans Condensed', sans-serif; 
+	line-height: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+

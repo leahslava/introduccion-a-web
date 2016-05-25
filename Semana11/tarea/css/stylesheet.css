@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu|Open+Sans:300);
+#wrapper{
+	margin: 0 auto;
+	width:1280px;
+}
+body{
+	background-color: #e2d7c5;
+}
+.text{
+	margin-top: 40px;
+}
+
+.p1{
+	margin-left: 60px;
+	width: 1150px;
+	color: black;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	text-align: center;
+}
+
+.foto{
+	width: 400px;
+	float:right;
+	margin-left: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+audio{
+	width: 300px;
+}
+.iconos{
+	width:50px;
+	margin-right: 40px;
+	float: right;
+}
+nav {
+	background-color: black;
+	list-style-type: none;
+	padding: 5px 5px;
+	width: 100%;
+	font-family:'Ubuntu', sans-serif;;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+nav li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav li a:hover{
+	color:#edaa1e;
+}
+input{ 
+	float: right;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
