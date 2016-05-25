@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+.wrapper{
+	margin: 0 auto;
+	width:100%;
+}
+header{
+	background-image: url("imagenes/cafe.png");
+	height:250px;
+	display: block;
+}
+nav {
+	background-color: #230b03;
+	list-style-type: none;
+	padding: 5px 5px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: helvetica;
+}
+nav li a:hover{
+	background-color:#8a6145;
+}
+article:first-child{
+	font-family: 'Josefin Sans', sans-serif;
+	height:400px;
+	width: 520px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	padding: 50px 50px;
+	position: relative;
+	margin-left: 100px;
+	margin-right: 20px;
+}
+article:nth-child(2){
+	font-family: 'Josefin Sans', sans-serif;
+ 	height:400px;
+	width: 520px;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+}
+h1{
+	color: #230b03;
+	font-size: 30px;
+	font-weight: bold;
+}
+footer {
+	font-family: 'Josefin Sans', sans-serif;	
+	color: white;
+	background-color: #230b03;
+	display: block;
+}
+
